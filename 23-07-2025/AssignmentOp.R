@@ -1,0 +1,12 @@
+cat("Enter Value 1:")
+x<-scan(what=numeric(),quiet=TRUE)
+cat("Enter Value 2:")
+y<-scan(what=numeric(),quiet=TRUE)
+
+print("Logical Ops\n")
+print(paste("Element-Wise AND:",x&y))
+print(paste("Logical AND:",x&&y))
+print(paste("Element-Wise OR:",x|y))
+print(paste("Logical OR:",x||y))
+print(paste("Logical NOT:",!x))
+print(paste("Logical OR:",xor(x,y)))

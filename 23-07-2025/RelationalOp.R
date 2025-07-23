@@ -1,0 +1,12 @@
+cat("Enter Value 1:")
+x <- scan(what = numeric(), quiet = TRUE)
+cat("Enter Value 2:")
+y <- scan(what = numeric(), quiet = TRUE)
+
+print("Relational Ops\n")
+print(paste("Equal (==):", x == y))
+print(paste("Not Equal (!=):", x != y))
+print(paste("Less Than (<):", x < y))
+print(paste("Less Than or Equal (<=):", x <= y))
+print(paste("Greater Than (>):", x > y))
+print(paste("Greater Than or Equal (>=):", x >= y))
