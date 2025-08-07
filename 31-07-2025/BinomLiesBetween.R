@@ -8,8 +8,5 @@ liesbetween<-function(a,b,n,p)
 
 plot(liesbetween(4,7,n,p))
 
-compliment<-function(x,n,p)
-{
-  return (1-pbinom(x-1,n,p))
-}
+b
 compliment(8,n,p)
